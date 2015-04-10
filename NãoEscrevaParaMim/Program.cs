@@ -38,11 +38,11 @@ namespace NãoEscrevaParaMim
         {
 
             string[] cumleler = new string[5];
-            cumleler[0] = "Pessoal, vou desabilitar o chat para nao me atrapalhar.";
-            cumleler[1] = "Se eu ficar escrevendo vou me desconcentrar, nao façam flood ok?";
-            cumleler[2] = "Vamos la time, nos iremos ganhar essa partida!";
-            cumleler[3] = "Por favor, joguem com calma, nao estamos com pressa";
-            cumleler[4] = "Estou com ping alto, se eu jogar mal me desculpe.";
+            cumleler[0] = "Eu Tenho Conversacao Ban Entao Eu Nao Posso Escrever";
+            cumleler[1] = "Se Eu Escrever No Jogo Confuso Entao Eu Nao Posso Escrever No Jogo";
+            cumleler[2] = "Rito Deu Um Papo Ban Para Mim, Entao Eu Nao Posso Escrever No Jogo";
+            cumleler[3] = "Por Favor, Jogar Com Cuidado Nao Grave Uns Aos Outros";
+            cumleler[4] = "Tenho Algumas Ping. Se Eu jogar Mal Por Favor Me Desculpe";
 
             Random rnd = new Random();
             int rastgele = rnd.Next(0, 4);
