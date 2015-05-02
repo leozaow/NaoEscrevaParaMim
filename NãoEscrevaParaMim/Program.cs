@@ -38,11 +38,11 @@ namespace NãoEscrevaParaMim
         {
 
             string[] cumleler = new string[5];
-            cumleler[0] = "Eu Tenho Conversacao Ban Entao Eu Nao Posso Escrever";
-            cumleler[1] = "Se Eu Escrever No Jogo Confuso Entao Eu Nao Posso Escrever No Jogo";
-            cumleler[2] = "Rito Deu Um Papo Ban Para Mim, Entao Eu Nao Posso Escrever No Jogo";
-            cumleler[3] = "Por Favor, Jogar Com Cuidado Nao Grave Uns Aos Outros";
-            cumleler[4] = "Tenho Algumas Ping. Se Eu jogar Mal Por Favor Me Desculpe";
+            cumleler[0] = "nem sei jogar direito com esse champ";
+            cumleler[1] = "vai dar ruim";
+            cumleler[2] = "joga namoral";
+            cumleler[3] = "tenta ai po";
+            cumleler[4] = "aff";
 
             Random rnd = new Random();
             int rastgele = rnd.Next(0, 4);
@@ -51,7 +51,7 @@ namespace NãoEscrevaParaMim
 
         private static void Game_OnGameEnd(EventArgs args)
         {
-            Game.Say("GG");
+            Game.Say("ggwp");
         }
 
 
